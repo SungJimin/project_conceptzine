@@ -1,0 +1,65 @@
+/*reset.css*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    /*font: inherit;를 제거해주면 <b>태그가 먹는다.*/
+	vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+    box-sizing: border-box;
+}
+body {/*영문서체는 따옴표가 없어도 ok*/
+    font-family: '함초롬돋움', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6{
+    font-size: 1em;
+    font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*하이퍼링크 색깔 파랗게 변하는거 막는방법
+기본적으로는 underling, 컬러 blue로 되어있다.
+색깔은 부모로부터 상속받은 색깔을 쓰겠다는 의미로 inherit를 써준다.*/
+a{
+    text-decoration: none;
+    color: inherit;
+}

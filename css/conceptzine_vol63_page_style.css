@@ -1,0 +1,244 @@
+div.hdrWrap {
+    background-color: #9ebbb6;
+    color: #fff;
+}
+
+div.sc1 {
+    padding-top: 80px;
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+div.sc1 > * {
+    float: left;
+    margin: 0 10px;
+}
+
+div.sc1 > .img {
+    width: 700px;
+    height: 400px;
+    background-color: #ccc;
+}
+
+div.sc1 > .article {
+    width: 340px;
+    padding-top: 217px;
+}
+
+div.sc1 > .article > h2 {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Calibri';
+    text-align: left;
+    line-height: 40px;
+}
+
+div.sc1 > .article > .price {
+    overflow: hidden;
+}
+
+div.sc1 > .article > .price > h3 {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: '함초롬돋움';
+    text-align: left;
+    float: left;
+    line-height: 40px;
+}
+
+div.sc1 > .article > .price > p {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: '함초롬돋움';
+    text-align: left;
+    color: #333;
+    float: left;
+    line-height: 40px;
+    margin-left: 48px;
+}
+
+div.sc1 > .article > .number {
+    overflow: hidden;
+}
+
+div.sc1 > .article > .number > h3 {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: '함초롬돋움';
+    text-align: left;
+    float: left;
+    line-height: 40px;
+    margin-right: 62px;
+}
+
+div.sc1 > .article > .number > p {
+    float: left;
+    line-height: 40px;
+}
+
+div.sc1 > .article > .btn {
+    height: 40px;
+    margin-top: 40px;
+}
+
+div.sc2 {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+div.sc2 > .heading {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Calibri';
+    text-align: center;
+    line-height: 40px;
+    width: 1060px;
+    margin: 0 auto;
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    color: #333;
+}
+
+div.sc2 > .article {
+    overflow: hidden;
+}
+
+div.sc2 > .article > .segment {
+    float: left;
+    width: 160px;
+    margin: 0 10px;
+}
+
+div.sc2 > .article > .segment > img {}
+
+div.sc2 > .article > .segment > h2 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Calibri';
+}
+
+div.sc2 > .article > .segment > p {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+    text-align: center;
+    font-family: '함초롬돋움';
+    padding-bottom: 20px;
+}
+
+div.sc3 {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+div.sc3 > .heading {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Calibri';
+    text-align: center;
+    line-height: 40px;
+    width: 1060px;
+    margin: 0 auto;
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    color: #333;
+}
+
+div.sc3 > .article {
+    margin: 0 10px;
+}
+
+div.sc3 > .article > h2 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Calibri';
+    color: #333;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+div.sc3 > .article > h3 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: '함초롬돋움';
+    color: #333;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+div.sc3 > .article > p {
+    text-align: left;
+    font-size: 14px;
+    font-family: '함초롬돋움';
+    color: #333;
+    line-height: 20px;
+}
+
+div.sc3 > .article > h4 {
+    text-align: left;
+    font-size: 14px;
+    font-family: '함초롬돋움';
+    color: #333;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+div.sc4 {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+div.sc4 > .heading {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Calibri';
+    text-align: center;
+    line-height: 40px;
+    width: 1060px;
+    margin: 0 auto;
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    color: #333;
+}
+
+div.sc4 > .article {
+    margin: 0 10px;
+    padding-bottom: 40px;
+}
+
+div.sc4 > .article > .segment {}
+
+div.sc4 > .article > .segment > h3 {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Calibri';
+    line-height: 20px;
+    color: #333;
+}
+
+div.sc4 > .article > .segment > p {
+    font-size: 14px;
+    text-align: left;
+    font-family: '함초롬돋움';
+    line-height: 20px;
+    color: #333;
+}
+
+div.sc4 > .img {
+    text-align: center;
+}
+
+div.sc4 > .img > div {
+    margin: 20px 0;
+}

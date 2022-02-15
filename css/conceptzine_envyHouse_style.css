@@ -1,0 +1,119 @@
+/* conceptzine_envyHouse_style.css */
+div.hdrWrap{
+    background-color: rgb(51 51 102);
+    color: #fff;}
+/*content*/
+div.content{width: 1080px; margin: 0 auto;}
+div.content>.header{
+    padding-top: 80px;
+}
+div.content>.header>h2{
+    font-size: 30px; font-weight: bold;
+    line-height: 40px; text-align: center;
+}
+div.content>.section{
+    margin: 80px auto;
+}
+div.content>.section>.editor{
+    width: 790px; margin: 0 auto;
+}
+div.content>.section>.editor>li{
+    font-family: "calibri", sans-serif; font-weight: bold;
+    font-size: 18px;
+}
+div.content>.section>.editor>p{
+    line-height: 40px;
+}
+div.content>.section>.leftPic{
+    width: 790px; margin: 0 auto;
+    position: relative;
+}
+div.content>.section>.leftPic:nth-child(2)~*{margin-top: 40px;}
+div.content>.section>.leftPic>.pic{}
+div.content>.section>.leftPic>.txt{
+    width: 340px;
+    position: absolute;
+    bottom: 10px; right: 0;
+}
+div.content>.section>.leftPic>.txt>h3{
+    font-weight: bold;
+}
+div.content>.section>.leftPic>.txt>p{
+    margin-top: 20px;
+    line-height: 30px;
+}
+div.content>.section>.twinPic{
+    width: 880px; margin: 0 auto;
+    overflow: hidden;}
+div.content>.section>.twinPic>.pic{
+}
+div.content>.section>.twinPic>.p1{
+    float: left;
+}
+div.content>.section>.twinPic>.p2{
+    float: left;
+    margin-left: 20px;
+}
+div.content>.banner{
+    width: 880px; margin: 0 auto;
+    padding: 80px 0;
+}
+div.content>.banner>.bnrWrap{
+    padding: 40px 0;
+    background-color: #f8f7f5;
+    text-align: center;
+}
+div.content>.banner>.bnrWrap>h4{
+    font-weight: bold; text-decoration: underline;
+}
+div.content>.banner>.bnrWrap>p{
+    width: 800px;
+    margin: 20px auto 0;
+    line-height: 30px;
+}
+div.content>.other{
+    margin: 80px auto;
+}
+div.content>.other>h4{
+    line-height: 40px;
+}
+div.content>.other>.articleWrap{
+    overflow: hidden;
+}
+div.content>.other>.articleWrap>.article{
+    float: left; margin-right: 20px;
+    cursor: pointer;
+}
+div.content>.other>.articleWrap>.article>.img{}
+div.content>.other>.articleWrap>.article>.seg{
+    height: 80px; padding: 20px 0;
+    text-align: center;
+}
+div.content>.other>.articleWrap>.article:hover .seg{
+    font-weight: bold;
+}
+div.content>.walkWrap{padding-top: 80px;}
+div.content>.walkWrap>.walk{
+    cursor: pointer;
+    padding: 80px 0; text-align: center;}
+div.content>.walkWrap>.walk>.hdr{}
+div.content>.walkWrap>.walk>.hdr>h3{
+    line-height: 40px;
+    font-weight: bold; font-size: 18px;
+}
+div.content>.walkWrap>.walk>.hdr>p{
+    height: 80px; padding: 20px 0;
+}
+div.content>.walkWrap>.walk>.section{
+    width: 880px; margin: 0 auto;
+    position: relative;
+}
+div.content>.walkWrap>.walk>.section>.img{}
+div.content>.walkWrap>.walk>.section>p{
+    position: absolute;
+    right: 0; line-height: 40px;
+    color: #bbb;
+}
+div.content>.walkWrap>.walk:hover p{
+    color: #000; font-weight: bold;
+}

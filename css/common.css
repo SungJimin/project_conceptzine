@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+input#nav {
+    display: none;
+}
+
+div.wrap {
+    width: calc(100vw + 370px);
+    height: 100vh;
+    margin-left: -370px;
+    transition: all 1s;
+}
+
+input:checked + div.wrap {
+    margin-left: 0;
+}
+
+div.wrap > .nav {
+    float: left;
+    background-color: #fff;
+    width: 370px;
+    height: 100vh;
+}
+
+div.wrap > .page {
+    float: left;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+div.wrap > .page:after {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 0.3s;
+}
+
+input:checked + div.wrap > .page:after {
+    height: 100%;
+}
+
+div.nav {
+    width: 370px;
+    padding: 35px;
+    height: 100vh;
+}
+
+div.nav > label {
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+
+div.nav > .menu {
+    margin: 20px 0;
+    width: 300px;
+    border-bottom: 1px solid #ccc;
+}
+
+div.nav > .LogIn {
+    border-bottom: 0;
+}
+
+div.nav > .menu > h3 {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Calibri';
+    line-height: 40px;
+    color: #333;
+}
+
+div.nav > .menu > ul {
+    padding-bottom: 25px;
+}
+
+div.nav > .menu > ul > li {
+    font-size: 14px;
+    font-family: '함초롬돋움';
+    line-height: 30px;
+    color: #333;
+}
+
+div.nav > .snsIcon {
+    font-size: 40px;
+    color: #333;
+}
+
+div.hdrWrap {}
+
+div.hdrWrap > .hdr {
+    width: 1060px;
+    overflow: hidden;
+    line-height: 40px;
+    /*로고를 중앙정렬해주기 위해 부모에다가 꼭 써주어야 하는 부분(2)_아래2개*/
+    margin: 0 auto;
+    position: relative;
+}
+
+div.hdrWrap > .hdr > .menu {
+    float: left;
+}
+
+div.hdrWrap > .hdr > .menu > label {
+    cursor: pointer;
+}
+
+div.hdrWrap > .hdr > .logo {
+    text-align: center;
+    width: 160px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'calibri';
+    /*로고를 중앙정렬해주기 위해 부모에다가 꼭 써주어야 하는 부분(1)_아래3개*/
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+div.hdrWrap > .hdr > .shop {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    font-family: 'Calibri', '함초롬돋움';
+}
+
+
+div.footer {
+    width: 1060px;
+    margin: 0 auto;
+    border-top: 1px solid #999;
+}
+
+div.footer > h6 {
+    text-align: left;
+    line-height: 40px;
+    font-family: 'Calibri', '함초롬돋움';
+    color: #999;
+}

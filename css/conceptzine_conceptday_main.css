@@ -1,0 +1,137 @@
+/*conceptday_main.css*/
+
+/*header*/
+
+div.hdrWrap{
+    background-color: rgb(51 51 102);
+    color: #fff;}
+
+/*content*/
+div.content{}
+
+
+/*title*/
+div.content>.titleWrap{
+    width: 1080px;
+    margin: 80px auto;
+}
+div.content>.titleWrap>.title{}
+div.content>.titleWrap>.title>h2{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+}
+div.content>.titleWrap>.title>.navWrap{
+    font-weight: bold;
+    line-height: 20px;
+    overflow: hidden;
+    margin-top: -20px;
+}
+div.content>.titleWrap>.title>.navWrap>.left{
+    float: left;
+}
+div.content>.titleWrap>.title>.navWrap>.right{
+    float: right;
+}
+
+
+/*section*/
+div.content>.section{
+    width: 1080px;
+    margin: 80px auto;
+    overflow: hidden;
+}
+
+div.content>.section>.leftArea{
+    text-align: center;
+    float: left;
+}
+div.content>.section>.leftArea>.main{}
+
+div.content>.section>.leftArea>.main>.image{
+   width: 520px;
+}
+div.content>.section>.leftArea>.main>h3{
+    font-weight: bold;
+    font-size: 24px;
+
+    line-height: 80px;
+}
+div.content>.section>.leftArea>.main>p{
+    height: 80px;
+}
+div.content>.section>.leftArea>.more{
+    margin-top: 40px;
+    color: #999;
+    font-weight: bold;
+}
+div.content>.section>.leftArea>.more>.seg{
+    color: #999;
+    height: 80px;
+}
+
+
+
+div.content>.section>.rightArea{
+   width: 540px;
+
+    float: right;
+}
+div.content>.section>.rightArea>.artWrap{
+    overflow: hidden;
+}
+div.content>.section>.rightArea>.artWrap>.article{
+     float: left;
+    margin: 0 10px;
+    width: 160px;
+
+
+}
+div.content>.section>.rightArea>.artWrap>.article:nth-child(3)~*{
+    margin-top: 40px;
+}
+div.content>.section>.rightArea>.artWrap>.article>.images{
+    height: 160px;
+
+
+}
+div.content>.section>.rightArea>.artWrap>.article>.images>img{
+
+
+}
+div.content>.section>.rightArea>.artWrap>.article>h4{
+    margin-top: 20px;
+    font-weight: bold;
+}
+div.content>.section>.rightArea>.artWrap>.article>h5{
+    margin-bottom: 20px;
+    font-weight: bold;}
+div.content>.section>.rightArea>.artWrap>.article>p{
+    height: 80px;}
+
+
+div.content>.section>.rightArea>.more{
+
+
+    padding: 40px 0;
+
+
+}
+div.content>.section>.rightArea>.more>ul{
+    overflow: hidden;
+
+     width: 100px;
+     margin: 0 auto;
+
+}
+div.content>.section>.rightArea>.more>ul>li{
+    float: left;
+    font-weight: bold;
+    width: 20px;
+    text-align: center;
+
+}
+div.content>.section>.rightArea>.more>ul>li:nth-child(1)~*{
+    color: #999;
+}

@@ -1,0 +1,182 @@
+/*conceptzine-fortpolio_style.css*/
+
+div.hdrWrap {
+    background-color: #f3e2cc;
+}
+
+div.hdrWrap > .hdr {
+    width: 1080px;
+    overflow: hidden;
+    /*로고를 중앙정렬해주기 위해 부모에다가 꼭 써주어야 하는 부분(2)_아래2개*/
+    margin: 0 auto;
+    position: relative;
+}
+
+div.hdrWrap > .hdr > .menu {
+    float: left;
+    line-height: 40px;
+}
+
+div.hdrWrap > .hdr > .logo {
+
+    text-align: center;
+    width: 160px;
+    line-height: 40px;
+
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'calibri';
+
+    /*로고를 중앙정렬해주기 위해 부모에다가 꼭 써주어야 하는 부분(1)_아래3개*/
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+
+div.hdrWrap > .hdr > .shop {
+    float: right;
+    line-height: 40px;
+
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'calibri';
+    text-align: right;
+}
+
+
+
+div.titleWarp {}
+
+div.titleWrap > .title {
+    width: 1080px;
+    margin: 80px auto;
+}
+
+div.titleWrap > .title > h2 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+}
+
+div.titleWrap > .title > .nav {
+    font-weight: bold;
+    overflow: hidden;
+    /*h2박스 아래에 nav박스가 있으니까, margin을 -줌으로써 글씨가 올라가게끔 / +를 주면 여백이 넓어져서 글씨가 아래로 내려간다.*/
+    margin-top: -40px;
+
+}
+
+div.titleWrap > .title > .nav > .sub {
+    line-height: 20px;
+}
+
+div.titleWrap > .title > .nav > .left {
+    float: left;
+}
+
+div.titleWrap > .title > .nav > .right {
+    float: right;
+}
+
+
+
+div.banner {
+    background-image: url(../img/sub01_fortpolio/img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 240px;
+    padding-bottom: 80px;
+}
+
+div.banner > .artWrap {
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+div.banner > .artWrap > .article {
+    float: right;
+}
+
+div.banner > .artWrap > .article > h3 {
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+div.banner > .artWrap > .article > p {
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+
+div.asideWrap {}
+
+div.asideWrap > .aside {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 20px auto;
+    /*margin 주니까 중앙으로 옴*/
+}
+div.asideWrap > .aside > h2 {
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+
+
+div.content{
+    padding: 80px 0;  
+}
+div.content>.header{
+    width: 1080px;
+    margin: 0 auto;
+   
+}
+div.content>.header>h3{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'calibri';
+    margin-left: 10px;
+}
+div.content>.section{
+    width: 1080px;
+    margin: 0 auto;
+    margin-top: 40px;
+    overflow: hidden;
+}
+div.content>.section>.article{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div.content>.section>.article>h4{
+    line-height: 40px;
+}
+div.content>.section>.article>p{
+    margin-top: 20px;
+}
+
+
+
+
+
+div.footer {
+    margin: 0 auto;
+    width: 1080px;
+    border-top: 1px solid #999;
+}
+
+div.footer > h6 {
+    line-height: 40px;
+    color: #999;
+    font-family: 'calibri';
+}

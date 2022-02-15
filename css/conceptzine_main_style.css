@@ -1,0 +1,228 @@
+/*conceptzine_main_style.csss*/
+
+div.hdrWrap{
+color: #000;
+}
+div.hdrWrap>.hdr{
+border-bottom: 1px solid #ccc;
+}
+
+
+div.banner {
+    background-image: url(../img/index_main/img/cake.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div.banner > .artWrap {
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 200px 190px;
+}
+
+div.banner > .artWrap > .article {
+    float: left;
+}
+
+div.banner > .artWrap > .art01 {
+    width: 430px;
+    margin: 0 auto;
+    margin-right: 20px;
+    color: #fff;
+    padding: 30px 0;
+    text-shadow: 2px 2px 2px #999;
+    font-family: 'adobe 명조 std';
+}
+
+div.banner > .artWrap > .art01 > h3 {
+    font-weight: bold;
+    font-family: 'adobe 명조 std';
+    font-size: 18px;
+    text-align: center;
+}
+
+div.banner > .artWrap > .art01 > p {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    line-height: 80px;
+}
+
+div.banner > .artWrap > .art01 > button {
+    background: transparent;
+    border: 1px solid #fff;
+    display: block;
+    /*블럭요소로 만들어주기 위해 사용*/
+
+    font-weight: bold;
+    font-family: 'calibri';
+    font-size: 14px;
+    line-height: 40px;
+
+    padding: 0 38px;
+    width: 160px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    color: #fff;
+    text-shadow: 2px 2px 2px #999;
+}
+
+div.banner > .artWrap > .article > img {
+    padding: 0 38px;
+}
+
+
+
+div.hdrWrap {
+    background-color: #fff;
+}
+
+div.hdrWrap > .hdr {
+    width: 1060px;
+    overflow: hidden;
+    /*로고를 중앙정렬해주기 위해 부모에다가 꼭 써주어야 하는 부분(2)_아래2개*/
+    margin: 0 auto;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+div.hdrWrap > .hdr > .menu {
+    float: left;
+    line-height: 40px;
+}
+
+div.hdrWrap > .hdr > .menu > label {
+    cursor: pointer;
+}
+
+div.hdrWrap > .hdr > .logo {
+
+    text-align: center;
+    width: 160px;
+    line-height: 40px;
+
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'calibri';
+
+    /*로고를 중앙정렬해주기 위해 부모에다가 꼭 써주어야 하는 부분(1)_아래3개*/
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+
+div.hdrWrap > .hdr > .shop {
+    float: right;
+    line-height: 40px;
+
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'calibri';
+    text-align: right;
+}
+
+div.asideWrap {}
+
+div.asideWrap > .aside {
+    width: 1080px;
+    margin: 0 auto;
+    /*margin 주니까 중앙으로 옴*/
+    padding: 20px 0;
+    margin-top: 60px;
+}
+
+div.asideWrap > .aside > h2 {
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'adobe 명조 std';
+    color: #666;
+}
+
+div.asideWrap > .aside > h2 > b {
+    font-size: 24px;
+    font-family: 'adobe 명조 std';
+}
+
+div.con01 {
+    padding: 80px 0;
+}
+
+div.con01 > .section {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+div.con01 > .section {
+    overflow: hidden;
+}
+
+div.con01 > .section > .article {
+    float: left;
+}
+
+div.con01 > .section > .article:nth-child(1) ~ * {
+    margin-left: 74px;
+}
+
+div.con01 > .section > .article > img {}
+
+div.con01 > .section > .article > h4 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 80px;
+    text-align: center;
+}
+
+div.con01 > .section > .article > p {
+    text-align: center;
+}
+
+
+
+div.con02 {
+    padding: 80px 0;
+}
+
+div.con02 > .section {
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+div.con02 > .section > .articleWrap {
+    float: left;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+div.con02 > .section > .articleWrap > .article {
+    float: left;
+}
+
+div.con02 > .section > .articleWrap > .art02 {
+    width: 250px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+div.con02 > .section > .articleWrap > .article > img {}
+
+div.con02 > .section > .articleWrap > .art02 > h4 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+}
+
+div.con02 > .section > .articleWrap > .art02 > p {
+    text-align: center;
+    height: 80px;
+    padding: 20px 0;
+}
+
